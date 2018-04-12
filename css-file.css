@@ -1,9 +1,20 @@
-body {
-    background-color: lightblue;
+@font-face
+{
+  font-family: 'beauty';
+  src: url('beauty.ttf') format('truetype'), 
+       url('beauty.woff') format('woff'), 
+       url('beauty.svg#Beauty') format('svg');
+}
+body 
+{
+    background: url("bakmaki.jpg");
+    margin:0px;
+    padding: 0px;  
 }
 
 
-body {
+body 
+{
     /* Typography Declarations */
     color: #222222;
     font-size: 1em;
@@ -13,30 +24,58 @@ body {
 .introduction-section,
 .location-section,
 .questions-section,
-.professionalexperience-section {
+.professionalexperience-section
+{
     max-width: 38em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
+    padding: 0px 20px 0px 20px;     
 }
 
 .introduction-section > p,
 .location-section > p,
 .questions-section,
-.professionalexperience-section > p {
+.professionalexperience-section > p
+{
     /* Typography Declarations */
     font-weight: 300;
     letter-spacing: 0.05em;
+    text-align: justify;
 }
 
 
 .introduction-section > h1,h2,
 .location-section > h1,h2,
 .questions-section > h1,h2,
-.professionalexperience-section > h1,h2 {
-    font-family: "Gentium Book Basic", serif;
+.professionalexperience-section > h1,h2
+{
+    font-family: "beauty", sans-serif;
     font-size: 1.2em;
     font-weight: bold;
     /* Layout */
     margin: 2em 0 1em 0;
+}
+a
+{
+    background: gray;
+    text-decoration: none;
+    display: block;
+    vertical-align: top;
+    font-family: "beauty", sans-serif;
+    margin: auto;
+    text-align: center;
+    padding: 6px 0px 6px 0px;
+    font-size: 22px;
+    color: white;
+    margin-top: 20px;   
+}
+a:hover
+{
+    color: gray;
+    background: white;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    padding-top: 5px;  
 }
