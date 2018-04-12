@@ -7,7 +7,7 @@ body {
     /* Typography Declarations */
     color: #222222;
     font-size: 1em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
 }
 
 .introduction-section,
@@ -34,7 +34,7 @@ body {
 .location-section > h1,h2,
 .questions-section > h1,h2,
 .professionalexperience-section > h1,h2 {
-    font-family: "Gentium Book Basic", Georgia, serif;
+    font-family: "Gentium Book Basic", serif;
     font-size: 1.2em;
     font-weight: bold;
     /* Layout */
