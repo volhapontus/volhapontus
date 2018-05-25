@@ -6,4 +6,4 @@ This website contains the following **key information**:
 - professional background.
 
 The website was created by *Volha Pontus*.
-Please, refer to (my page)[https://volhapontus.github.io].
+Please, refer to [my page](https://volhapontus.github.io).
